@@ -1,3 +1,87 @@
 Big O
 Linear Relationship : Doubling the amount of things to do, will double the time it takes to get the thing done. Linear relationship.
 Drop the constants
+
+7 steps to solve the problem
+1. Listen for clues
+2. Draw an example: large and generic
+3. Brute Force
+4. Optimize
+5. Walk through the algo
+6. Code
+7. Verification
+
+Optimizing with BUD : Bottlenecks, Unnecessary work, Duplicated work
+Optimizing with Space and Time :
+There are trade-offs. We can sacrifice time for space and vice-versa. Discuss these trade-offs with your interviewer.
+Upfront work to save time down in the future
+Hash Tables, Pre-computation, Tries
+Best conceivable runtime : something you cannot beat the best theoretical runtime, pre-computational step that you cannot
+avoid.  O(n) is the best you can do. O(log n) cannot be achieved.
+
+Optimizing with DIY :
+Come up with a good example (large and generic), then figure out the output.
+
+Demonstrate that you are a good coder. interviewer just want to make sure you're good coder.
+
+Pick the language you are most comfortable with and write code in it.
+
+Talk out loud. Show your interviewer your thought process.
+
+Good code:
+1. Readability 2. Correctness 3. Performance 4. Maintainability
+Interviewer is looking for a signal. Work towards having your code to be as great as possible. Wait until you are comfortable to code.
+Don't code until you know exactly what you have to code. Until you are ready to start coding.
+explicit and implicit signal from interviewer says I want to see the code for this.
+Before you start coding you should know things like :
+1. your input/output data types
+2. Index math
+3. helper functions
+4. Data structures and when they change
+
+Tips and Tricks:
+1. Don't just dive in. Make sure you know the little details. Wait until you and your interviewer are ready.
+Have the algorithm is settled. Mutual consent is important. Both are ready to see the code.
+When you are writing the code walk through the algorithm to understand you know what you are doing.
+What the data structures are, what the helper functions are, you know the flow of the code properly.
+2. Demonstrate that you are a great coder. Correctness, Readability, Maintainability, Performance
+3. Use the neat features of your programming language, -> Ask if you're not sure.
+4. Use good styles
+5. Think about error cases, boundary checks, etc.
+
+Well Structured code:
+1. Structuring your code makes it more readable, Maintainable, etc. AND makes your life easier.
+2. Modularize your code. Code it top down. Go by what is interesting line of code next. Do this a top down approach.
+3. Modularize code top down, filling in the next most interesting piece of code.
+4. Ignore things that don't show good signal.
+
+Focus on what shows signal. Top-down way. Focus on the most interesting, something that doesn't matter.
+
+Verification
+Your original example is generally not a good test case.
+1. Conceptual walk through
+2. Hotspot ? Place in the code that is likely to cause errors. Fairly fast.
+3. Test cases: small test case, quick, edge cases (boring and interesting), big test cases
+Don't use the example you already used to create the algorithm with
+
+Common Mistakes:
+1. Verifying the algorithm, not the code, plug in the values, don't assume,
+2. Blindly testing, without thinking about what's happening
+3. Quick, sloppy fixes, don't panic, find the right fix, be calm, think of the process as a code review,
+Strong coding skills, strong communication skills,
+
+Speaking and Listening:
+1. Drive through the problem, fighting to get a correct answer
+2. Explain the problem, explain the solution, explain the code, explain the thought process, show your thought process
+3. Ask questions, dont be in a situation where after 5 mins, you are solving for the wrong question
+4. Propose an initial solution, but also think about its issues, keep trying to make the problem better and better, give examples on how you are thinking
+show your thought process
+5. Use examples to explain your approach.
+6. Be open about Mistakes. Don't be embarrassed
+7. Admit if you have heard the problem before. Don't give when you have never heard of the problem, you can ask questions at any time of interview.
+8. Keep trying.
+9. Listen to your interview. Pay attention to your interview, capture all of your guidance. Demonstrates collaboration skills.
+10. Make sure you capture the value of their hints
+11. Follow your interviewer's path
+
+Show the journey, Its the journey, not the destination. Show the thought process to the interviewer.
