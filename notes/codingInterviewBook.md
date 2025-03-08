@@ -28,4 +28,4 @@ Optimization Techniques: Look for BUD, Do it yourself, Simplify and Generalize, 
 Always try to consider the best conceivable runtime
 Always write modular code means separating isolated chunks of code into their own methods, helps keep the code more maintainable, readable, and testable
 
-pg 103
+pg 104
