@@ -1,0 +1,103 @@
+class Node:
+    def __init__(self, data):
+        self. data = data
+        self.next = None
+
+class LinkedList:
+    def __init__(self):
+        self.head = None
+
+    def append(self, data):
+        new_node = Node(data)
+
+        if self.head is None:
+            self.head = new_node
+            return
+        last = self.head
+        while last.next:
+            last = last.next
+        last.next = new_node
+
+def SumListII(l1: LinkedList, l2:LinkedList) -> int:
+    l3 = LinkedList()
+    head = l3
+    carry = 0
+
+    s1 = []
+    s2 = []
+
+    current = l1.head
+    while current:
+        s1.append(current.data)
+        current = current.next
+    current = l2.head
+    while current:
+        s2.append(current.data)
+        current = current.next
+    while s1 or s2 or carry:
+        v1 = s1.pop() if s1 else 0
+        v2 = s2.pop() if s2 else 0
+        su = v1 + v2 + carry
+        val = su % 10
+        carry = su // 10
+        new_node = Node(val)
+        new_node.next = l3.head
+        l3.head = new_node
+    return l3
+
+def print_linked_list(l: LinkedList):
+    current = l.head
+    while current:
+        print(current.data, end=" -> " if current.next else "\n")
+        current = current.next
+
+def test_sum_lists_forward_no_reverse():
+    # Test Case 1: Simple Case Without Carry
+    l1 = LinkedList()
+    l1.append(6)
+    l1.append(1)
+    l1.append(7)
+
+    l2 = LinkedList()
+    l2.append(2)
+    l2.append(9)
+    l2.append(5)
+
+    result = SumListII(l1, l2)
+    print("Test Case 1 Result:")
+    print_linked_list(result)
+    # Expected result: 9 -> 1 -> 2 (912)
+
+    # Test Case 2: Case with Carry
+    l1 = LinkedList()
+    l1.append(9)
+    l1.append(9)
+    l1.append(9)
+
+    l2 = LinkedList()
+    l2.append(1)
+    l2.append(1)
+    l2.append(1)
+
+    result = SumListII(l1, l2)
+    print("Test Case 2 Result:")
+    print_linked_list(result)
+    # Expected result: 1 -> 1 -> 1 -> 1 (1111)
+
+    # Test Case 3: Different Lengths
+    l1 = LinkedList()
+    l1.append(6)
+    l1.append(1)
+
+    l2 = LinkedList()
+    l2.append(9)
+    l2.append(9)
+    l2.append(9)
+
+    result = SumListII(l1, l2)
+    print("Test Case 3 Result:")
+    print_linked_list(result)
+    # Expected result: 1 -> 0 -> 0 -> 1 (1001)
+
+# Run all test cases for forward sum without reversing
+test_sum_lists_forward_no_reverse()
