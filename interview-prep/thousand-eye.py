@@ -30,7 +30,7 @@ def wordle(wordOfTheDay):
     for guess in guesses: # rapid
         for i in range(5):
             word_day_map[wordOfTheDay[i]].append(i)
-            guess_word_map = {}
+        guess_word_map = {}
         for index in range(5): # 0 r 1 e
             if guess[index] in word_day_map: # d 4
                 indexes = word_day_map[guess[index]] #[3] d
