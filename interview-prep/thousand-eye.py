@@ -44,7 +44,22 @@ def wordle(wordOfTheDay):
         print(f"{guess} \n")
         for key, value in guess_word_map.items():
             print(f" {key} - {value}" )
+# result
 
+# rapid
+
+#  r - green
+#  a - yellow
+#  p - grey
+#  i - grey
+#  d - yellow
+# ready
+
+#  r - green
+#  e - green
+#  a - green
+#  d - green
+#  y - green
 
 
 # // run
