@@ -25,16 +25,15 @@ def wordle(wordOfTheDay):
 #   //     'i' - grey
 #   //     'd' - yellow
     word_day_map = defaultdict(list)
-    guess_word_map = {}
 
     # word_day_map(r:0, e:1, a:2, d:3, y:4)
     for guess in guesses: # rapid
         for i in range(5):
             word_day_map[wordOfTheDay[i]].append(i)
+            guess_word_map = {}
         for index in range(5): # 0 r 1 e
             if guess[index] in word_day_map: # d 4
                 indexes = word_day_map[guess[index]] #[3] d
-                print(indexes, word_day_map)
                 if indexes[0] == index: # 0 4
                     guess_word_map[guess[index]] = 'green' # r : green
                     indexes.pop(0)
@@ -42,8 +41,9 @@ def wordle(wordOfTheDay):
                     guess_word_map[guess[index]] = 'yellow' # d: yellow
             else:
                 guess_word_map[guess[index]] = 'grey'
+        print(f"{guess} \n")
         for key, value in guess_word_map.items():
-            print(f"{key} - {value}" )
+            print(f" {key} - {value}" )
 
 
 
