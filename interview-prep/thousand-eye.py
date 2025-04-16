@@ -10,7 +10,7 @@
 # work of the days map r:0 e:1 a:2 d:3 y:4
 from collections import defaultdict
 def wordle(wordOfTheDay):
-    guesses = ['rapid', 'ready']
+    guesses = ['rrrap', 'readr']
 #   r: (0, 4)
 #   //
 #   // ['rapid', 'store', 'cross', 'reach', 'peace', 'ready'];
@@ -34,11 +34,14 @@ def wordle(wordOfTheDay):
         for index in range(5): # 0 r 1 e
             if guess[index] in word_day_map: # d 4
                 indexes = word_day_map[guess[index]] #[3] d
-                if indexes[0] == index: # 0 4
-                    guess_word_map[guess[index]] = 'green' # r : green
-                    indexes.pop(0)
+                if not indexes:
+                    if indexes[0] == index: # 0 4
+                        guess_word_map[guess[index]] = 'green' # r : green
+                        indexes.pop(0)
+                    else:
+                        guess_word_map[guess[index]] = 'yellow' # d: yellow
                 else:
-                    guess_word_map[guess[index]] = 'yellow' # d: yellow
+                    guess_word_map[guess[index]] = 'grey'
             else:
                 guess_word_map[guess[index]] = 'grey'
         print(f"{guess} \n")
