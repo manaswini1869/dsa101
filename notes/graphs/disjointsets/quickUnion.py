@@ -8,6 +8,7 @@ class QuickUnion:
     def union(self, x, y):
         rootX = self.find(x)
         rootY = self.find(y)
+
         if rootX != rootY:
             self.root[rootY] = rootX
 
