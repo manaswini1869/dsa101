@@ -1,0 +1,8 @@
+- BFS algorithm is the efficient way to find efficiently find the shortedt path between two vertices in a graph where all edges have equal and positive weights
+- In bfs as soon as a path is found between the source and the target it is guaranteed to the shortest one
+- BFS primary use case : Traversing all vertices in the graph; Finding the shorted path between two vertices in a graph where all edges have equal and positive weights
+- BFS - Queue FIFO First In First Out
+- BFS - Search layer by layer,
+- Shortest distance between source and destination is to traverse all paths or accept the shortest path when target is reached
+- the first path found in bfs is the shortest path
+-
