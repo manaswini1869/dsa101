@@ -37,6 +37,7 @@ class Router:
         left_idx = bisect_left(timestamps, startTime)
         right_idx = bisect_right(timestamps, endTime)
         return right_idx - left_idx
+
 # Your Router object will be instantiated and called as such:
 # obj = Router(memoryLimit)
 # param_1 = obj.addPacket(source,destination,timestamp)
