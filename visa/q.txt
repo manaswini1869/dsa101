@@ -1,0 +1,7 @@
+Reverse a substring
+Matrix traversal (you can only move right so it's basically 1D not 2D)
+Some list manipulation
+
+
+
+
