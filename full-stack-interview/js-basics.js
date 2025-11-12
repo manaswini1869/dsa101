@@ -98,7 +98,7 @@ non-primitive data types: Object, Array, Function
 
 What is DOM : Document Object Model is a programming interface for web document. It represents the structure of a webpage as a tree of objects
 where each element in the HTML or XML document is a node in the tree. Through the DOM,
-programming languages like JacaScript can interact with and modify the content, structure, and style of a webpage dynamically.
+programming languages like JavaScript can interact with and modify the content, structure, and style of a webpage dynamically.
 
 */
 
@@ -107,5 +107,59 @@ programming languages like JacaScript can interact with and modify the content, 
 this keyword in Javascript:
 in Javascript the this keyword refers to the current execution context or the object that is currently executing the code. Its value can vary
 depending on how a function is called
+
+*/
+
+
+/*
+
+CDN :
+- improved load times
+- increased availability and reliability
+- reduced bandwidth costs
+- scalability
+- enhanced security
+- SEO benefits
+- content caching
+- geographic distribution
+
+*/
+
+/*
+
+event bubbling vs capturing
+
+capturing : event starts from the top of the dom tree and travels down to the target element
+bubbling : event starts from the target element and travels up to the top of the dom tree
+child responds first in bubbling
+parent responds first in capturing
+*/
+
+/*
+
+use strict mode in Javascript : enforces stricter parsing and error handling in the Javascript
+code, helping to catch common mistakes, prevent certain actions that could lead to bugs, make the code more predictable and easier to maintain
+
+*/
+
+/*
+
+cookies: analysis, session management, personalization; primarily used for session management, personalization, and tracking user behavior.
+cookie is created to remember your login session on a website.
+websites often use cookies to track user behavior for analytics and advertising purposes.
+
+localstorage: permanent storage
+
+*/
+
+/*
+
+a bot from scraping publicly accessible web pages might use techniques such as:
+- limiting the rate of requests to avoid detection, API rate limiting
+- captcha integration verifies whether you're real person or a not
+- honeypots, trap for a bots, elements that are hidden from human users but visible to bots
+- Obfuscating API endpoints : making it difficult for bots to find and access the API endpoints
+- anomaly detection :spotting anything unusual in traffic patterns that might indicate bot activity
+
 
 */
