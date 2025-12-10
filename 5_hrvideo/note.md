@@ -71,3 +71,10 @@ instead of recalculating the solution again, it can be easily fetched
 save time in computational effort
 memoization means storing the values to these subproblems in a data structure
 is a computer programming technique where an algorithmic problem is first broken down into sub-problems, the results are saved, and then reused to find a solution efficiently
+
+Backtracking : involves finding a solution incrementally by trying different options and undoing them if they lead to a dead end
+
+
+
+
+
