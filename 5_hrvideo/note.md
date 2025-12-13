@@ -74,7 +74,7 @@ is a computer programming technique where an algorithmic problem is first broken
 
 Backtracking : involves finding a solution incrementally by trying different options and undoing them if they lead to a dead end
 
-
+Heap : a complete binary structure where, for every node the value of the child is less than equal to its own
 
 
 
