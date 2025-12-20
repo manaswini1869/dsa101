@@ -31,6 +31,14 @@ have a seen set or a seen array which will mark the index of the visited node, w
 
 Reorder edges : check how many edges you need to reorder that are away from 0
 
+IN graphs you choose BFS when you want to find the shorted distance
+Usually its better to use DFS, there are rarely cases where BFS performs better than DFS
 
+BFS on graphs always visits nodes according to their distance from the starting point.
+
+Graph and thinking about distance you should be thinking about BFS,each iteration when we go to the next level, we are increasing the
+distance by 1
+
+# In python objects are dynamic in nature, you can add additional class objects dynamically without causing any error
 
 
