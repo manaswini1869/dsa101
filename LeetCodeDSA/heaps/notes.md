@@ -10,11 +10,14 @@ parent.val <= child.val
 
 ## Heap operations
 heapq.heappush - O(log n) time
-heapq.heappop
-heapify - takes an array of integers and converts it to a min heap structure
+heapq.heappop - O(log n)
+heapify - O(n) takes an array of integers and converts it to a min heap structure
 
 if a problem involves finding median - good to think about implementing it with two heaps
 
+finding the min element = O(1)
+
+The heap property is that children have values larger than their parents. This doesn't imply that the maximum element will be the last element in the heap
 
 
 ## Top K
