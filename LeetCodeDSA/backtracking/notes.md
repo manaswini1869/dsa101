@@ -23,3 +23,13 @@ function backtrack(curr) {
     }
 }
 
+time complexity is very hard to derive
+it is
+
+O(k⋅n! // (n−k)!⋅k!)
+n = length of the matrix of the given limit
+k = given limit
+
+
+
+
