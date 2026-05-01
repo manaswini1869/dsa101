@@ -1,0 +1,7 @@
+I’m particularly excited about Abridge because of its mission to bring clarity and efficiency to healthcare using AI. The idea of transforming real-time patient-clinician conversations into structured, trustworthy clinical insights is both technically challenging and deeply impactful, and I find that combination very motivating.
+
+From a technical perspective, I’m drawn to the opportunity to work on scalable, cloud-based systems and event-driven architectures in a high-growth environment. In my experience building distributed systems and data pipelines on AWS and Kubernetes, I’ve seen how critical reliability, observability, and performance are at scale. Abridge’s focus on building secure, compliant systems in a regulated environment adds another layer of complexity that I’m excited to learn and contribute to.
+
+I’m also really interested in the product engineering culture at Abridge—especially the emphasis on ownership, making architectural decisions, and collaborating across disciplines like ML, product, and design. I enjoy working in environments where engineers have a strong voice in both technical direction and product impact.
+
+Overall, the combination of meaningful real-world impact, challenging distributed systems problems, and a collaborative, high-ownership culture makes Abridge a very compelling place for me to grow and contribute.
