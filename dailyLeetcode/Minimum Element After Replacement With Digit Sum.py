@@ -1,7 +1,7 @@
 from typing import List
 
 class Solution:
-    def minElement(self, nums: List[int]) -> int:
+    def minElement(self, nums: List[int]) -> float:
 
         ans = float("inf")
         for num in nums:
